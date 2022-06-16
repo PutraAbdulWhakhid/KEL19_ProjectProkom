@@ -37,7 +37,7 @@ def ok():
                         title='Error',
                         message='Data Anda Belum Valid')
                 elif ((len(text)!=12)):
-                        answer = tm.askyesno(
+                        answer = tm.showerror(
                         title='Error',
                         message='Nomor Telepon Harus terisi dengan 12  digit angka')
                 else:
